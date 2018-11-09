@@ -1,0 +1,36 @@
+{
+  "name": "sendit",
+  "version": "0.0.0",
+  "description": "SendIT is a courier service that helps users deliver parcels to different destinations.",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pg-promise": "^5.9.7"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.1",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaymykels/SendIT.git"
+  },
+  "author": "Michael Ezeokoye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaymykels/SendIT/issues"
+  },
+  "homepage": "https://github.com/Jaymykels/SendIT#readme"
+}
